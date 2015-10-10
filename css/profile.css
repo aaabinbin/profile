@@ -1,0 +1,77 @@
+.cl:after{content: ".";display: block;height: 0px;clear: both;visibility: hidden;}
+* html .cl{height: 1%;}/*IE6*/
+*:first-child+html .cl{min-height: 1px;}/*IE7*/
+* { margin: 0; padding: 0; font-family: HanSan;}
+/*@font-face {
+	font-family: HanSan;
+	src: url(../font/SourceHanSansCN-Light.otf);
+	font-weight: lighter;
+}*/
+@font-face {
+	font-family: HanSan;
+	src: url(../font/SourceHanSansCN-Normal.otf);
+}
+/*@font-face {
+	font-family: HanSan;
+	src: url(../font/SourceHanSansCN-Bold.otf);
+	font-weight: bold;
+}*/
+
+body { width: 100%; height: 100%; background-color: #fff;}
+
+.titleframe { 
+	width: 100%; height: 450px; 
+	background: url("../img/banner.jpg") no-repeat; 
+	padding: 150px 0 100px 0; 
+	text-align: center;
+	background-size: 100% 700px;
+}
+.profile { margin: 0 auto; width: 960px; height: auto; }
+.largetitle { width: 100%; text-align: center; font-size: 50px; margin: 50px 0 0 0; color: #aaa; letter-spacing: 1px;}
+.familyname { color: #fbf7f6;}
+.subtitle { width: 100%; text-align: center; font-size: 20px; margin: 10px 0 0 0; color: #bbb; letter-spacing: 0px; text-transform: capitalize;}
+.photo { width: 200px; height: 200px;}
+.maintext { width: 100%; height: auto;}
+.onepart { width: 100%; height: auto; padding: 50px 0 50px 0; border-top: 1px solid #eee;}
+.parttitle { 
+	width: 100%; 
+	text-align: left; 
+	font-size: 30px; 
+	text-transform: capitalize; 
+	margin-bottom: 30px; 
+}
+.ptitle { color: #31B3E3;}
+.textframe { width: 100%; height: auto;}
+.textframe .infor li { font-size: 20px; color: #666; margin-top: 15px;}
+.textframe .infor li span { color: #31B3E3;}
+.textframe .infor .myname {
+	font-size: 36px;
+	color: black;
+}
+.tfpassage { color: #666; text-align: left; text-indent: 2em;}
+.tftitle { color: #666; text-align: left; margin-top: 15px;}
+a { color: #31B3E3; text-decoration: underline;}
+.tfpkeyword { color: #31B3E3;}
+.listframe { margin-top: 20px; padding: 10px 2%; color: white;}
+.listframe .count { float: right; color: white;}
+.macbg { width: 100%; height: auto; background: url("../img/mac.png") no-repeat;
+	min-height: 310px;
+	background-size: 450px 300px;
+	background-position: 0px 20px;
+	padding-bottom: 40px;
+	margin-top: 15px;
+	border-bottom: solid 1px #eee; 
+}
+.macshow { width: 333px; height: 230px; margin: 44px 0 0 58px;}
+.showtxt { width: 50%; margin-top: 40px; text-align: left; float: right;}
+.showtxtti { color: #31B3E3; font-size: 20px; }
+.showtxtpa { color: #666; margin-top: 15px; text-indent: 2em;}
+.phonebg { width: 100%; height: auto; background: url("../img/phone.png") no-repeat;
+	background-size: 234px 425px;
+	background-position: 104px 20px;
+	padding-bottom: 20px;
+	margin-top: 15px;
+	border-bottom: solid 1px #eee;
+}
+.phoneshow { width: 179px; height: 256px; margin: 102px 0 0 133px;}
+.last { border: none;
